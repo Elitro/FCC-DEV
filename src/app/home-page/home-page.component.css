@@ -1,0 +1,101 @@
+.social-media {
+    /* The image used */
+    background-image: url("assets/torre_cabra.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bio {
+    /* The image used */
+    background-image: url("assets/eletro.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.retroshadow {
+    font-size: 50px;
+  color: white;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .centered {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  text-align: center;
+}
+
+/*Social Media buttons*/
+.btn {
+  background: #fff; 
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  transition: all 0.3s ease-out;
+  border: none;
+  cursor:pointer;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus,
+.btn-linkedin:active{
+  background: #3366CC;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+.btn-linkedin {
+  color:#3366CC;
+}
+
+.btn-git:hover,
+.btn-git:focus,
+.btn-git:active{
+  background: black;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+.btn-git {
+  color:black;
+}
+
+.btn-fcc:hover,
+.btn-fcc:focus,
+.btn-fcc:active{
+  background: brown;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+.btn-fcc {
+  color:brown;
+}
+.btn-social {
+  padding: 0;  
+}
+.btn-social i{
+  padding: 10px;
+}
+.btn-social span {
+  padding: 10px;
+}
+
+.btn-social :first-child{
+    border-right: 1px solid rgba(0,0,0,0.2);
+}

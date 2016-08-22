@@ -1,0 +1,19 @@
+<div class="fluid-container main-container">
+  
+  <div class="my-image" [ngStyle]="{'background-image' : 'url('+background+')'}">
+  <!--<div class="my-image">-->
+    <div id="my-quote">"{{quote}}" - {{author}}</div>
+  </div>
+
+  <button id="" class="my-button btn btn-primary btn-lg" (click)="getQuote()">Get Quote</button>
+
+  <div id="my-tweet-button">
+  <a href="https://twitter.com/share"
+    class="btn btn-primary btn-lg twitter-share-button"    
+    data-show-count="false"
+    data-text="{{quote}}">
+  <i class="fa fa-twitter" aria-hidden="true"></i><div id="button-text">Tweet</div></a>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+    
+</div>

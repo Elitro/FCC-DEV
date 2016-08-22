@@ -1,0 +1,54 @@
+.my-image{  
+  /*border: 1px solid blue;*/
+
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: fixed; 
+  width:100%;
+  height: 100%;
+  z-index: -1;
+
+
+  /*background-size: cover;
+  background: url("https://source.unsplash.com/random/1600x900") no-repeat center center fixed;*/
+}
+
+.main-container {
+  text-align: center;
+}
+
+#my-quote {
+  /*border: 1px solid #f00;*/
+  font-size: 150%;
+  color: white;
+  text-overflow: ellipsis;
+  background: black;
+  opacity: 0.5;
+
+  right:50%;
+  bottom: 50%;
+  transform: translate(50%,50%);
+  position: absolute;
+}
+
+.my-button {
+  right:50%;
+  bottom: 60%;
+  transform: translate(50%,50%);
+  position: absolute;
+}
+
+#button-text{
+  margin-left: 10px;
+  display: inline-block;
+}
+
+#my-tweet-button{
+  
+  right:60%;
+  bottom: 60%;
+  transform: translate(50%,50%);
+  position: absolute;
+}
