@@ -8,10 +8,9 @@
   <button id="" class="my-button btn btn-primary btn-lg" (click)="getQuote()">Get Quote</button>
 
   <div id="my-tweet-button">
-  <a href="https://twitter.com/share"
+  <a href="https://twitter.com/intent/tweet?text={{quote}}"
     class="btn btn-primary btn-lg twitter-share-button"    
-    data-show-count="false"
-    data-text="{{quote}}">
+    data-show-count="false">
   <i class="fa fa-twitter" aria-hidden="true"></i><div id="button-text">Tweet</div></a>
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
