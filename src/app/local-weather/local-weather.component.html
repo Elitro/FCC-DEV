@@ -1,0 +1,12 @@
+<h1 id="my-title">
+  Weather App!
+</h1>
+
+<app-current-weather class="container-fluid"
+  [weatherObservable]="notifyWeatherToChildren" 
+  (notifyParent) = "changeWeatherUnit($event)">
+</app-current-weather>
+
+<app-day-detail
+  [weatherObservable]="notifyForecastToChildren"
+></app-day-detail>

@@ -1,0 +1,23 @@
+<div class="panel panel-default col-xs-4 col-xs-offset-4">
+  <div class="panel-body">
+
+    <div id="temp-row" class="row">
+      <div class="col-md-12 text-center">
+        Weather: {{weatherValue}}º {{weatherUnit}}
+        <button class="btn-xs btn-info" (click)="changeWeatherUnit()" style="display: inline-block">Unit</button>
+      </div> 
+        
+    </div>
+    <div id="icon-row" class="row">
+      <div class="col-md-12 text-center">
+        <img src="{{icon}}" />
+      </div>
+    </div>
+    <div id="location-row" class="row">
+      <div class="col-md-12 text-center">
+        City: {{city}}, Country: {{country}}
+      </div>
+    </div>
+
+  </div>
+</div>

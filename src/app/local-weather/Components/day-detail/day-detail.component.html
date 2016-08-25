@@ -1,0 +1,29 @@
+<div class="container ">
+  <h2 class="text-center">Daily Forecast</h2>
+
+  <table class="table">
+
+    <thead>
+      <tr>
+        <th>Hour</th>
+        <th>Icon</th>
+        <th>Temperature</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr *ngFor="let hour of hours; let i = index">
+        <td>
+          {{hours[i]}}
+        </td>
+        <td>
+          <img src="{{icons[i]}}" />
+        </td>
+        <td>
+          {{temperatures[i]}}
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
